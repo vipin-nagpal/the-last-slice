@@ -1,0 +1,359 @@
+
+/* navbar and banner start here  */
+.logo{
+    height: 90px;
+    width: 100px;
+}
+
+.navcolors{
+    background: none;
+    position: relative;
+    z-index: 25;
+}
+.bannerupper{
+    margin-top: -116px;
+}
+.navchanges{
+    font-size: 1.5rem;
+    margin-left: auto;
+    color: black !important;
+    font-weight: 700;
+}
+
+
+.carousel-caption h5{
+    color: #f2ae2e;
+    font-size: 45px;
+}
+
+.carousel-caption p{
+    color: white;
+    font-size: 20px;
+}
+.btn-color{
+    background-color: #d90504;
+    color: #f2ae2e;
+}
+.heading {
+    background: rgba(0, 0, 0, 0.3);
+    top: 120px;
+    right: 950px;
+    bottom: 80px;
+    left: 100px;
+    }
+    .heading-1{
+        background: rgba(0, 0, 0, 0.3);
+        top: 120px;
+        right: 100px;
+        bottom: 80px;
+        left: 930px;
+    }
+    .heading:hover{
+        background: rgba(0, 0, 0, 0.3);
+    top: 120px;
+    right: 800px;
+    bottom: 80px;
+    left: 50px;
+    }
+    .heading-1:hover{
+        background: rgba(0, 0, 0, 0.3);
+        top: 120px;
+        right: 100px;
+        bottom: 80px;
+        left: 730px;
+    }
+    /* navbar and banner end here  */
+     
+    /* gallery start here  */
+    .gallery-1{
+        z-index: 40;
+        position: relative;
+        margin-top: -50px;
+    }
+    .heading-3{
+        top: 100px;
+        right: 150px;
+        left: 150px;
+        bottom: 50px;
+    }
+    .gallery-2{
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    .gallery-3{
+        display: block;
+        width: 80%;
+        height: 300px;
+        margin-left: 55px;
+        object-fit: cover;
+        transition: transform 400ms ease-out;
+        border: 2px solid white;
+    }
+    .gallery-3:hover{
+        transform: scale(1.15);
+    }
+       
+    .gallery-4{
+        background-image: url(../img/gallery\ 1.jpg);
+    }
+    .gallery-4 h1{
+        color: #f2ae2e;
+        font-size: 70px;
+        text-align: center;
+
+    }
+    .gallery-5 h3{
+        color: white;
+       
+        margin-top: 20px;
+        text-align: center;
+    }
+       .gallery-5 h2{
+           color: #f2ae2e;
+           text-align: center;
+           margin-top: -50px;
+           font-size: 30px;
+       }
+
+
+   
+    
+     /* menu  */
+    .box-1:hover{
+        box-shadow: 0 0 25px 0 grey;
+       
+    }
+
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        height: 30px;
+        width: 30px;
+        outline: black;
+        background-color: rgba(0, 0, 0, 1);
+        background-size: 100%, 100%;
+        border-radius: 50%;
+        border: 1px solid black;
+    }
+    .button-1{
+        border-radius: 30px;
+    }
+    .button-1:hover{
+        border: none;
+        /* box-shadow: 0 0 15px 0 #a82877; */
+    } 
+    .card{
+        border: none;
+    }
+    .card-title{
+        text-align: center;
+        font-size: 30px;
+        margin: 20px 0px;
+    }
+
+       
+       .card-img-top{
+           width: 288px;
+           height: 230px;
+
+       }
+    
+     
+    
+     .menu-1{
+         height: 500px;
+         width: 600px;
+         margin-top: -90px;
+         margin-left: -40px;
+     
+         position: relative;
+         display: flex;
+
+         animation-name: menu1;
+         animation-duration: 10s;
+        animation-iteration-count: infinite;  
+     }
+     @keyframes menu1{
+        0%{
+            left: 0px;
+             top: 0px;
+           
+        }
+        25%{
+            left: 50px;
+            top: 50px;
+           
+        }
+        75%{
+           left: 100px;
+           top: 0px;
+        }
+        100%{
+           top: 0px;
+           left: -50px;
+        }
+    }
+
+
+    /* menu end here  */
+
+    /* about */
+
+    .headding-sub{
+        font-size: 50px;
+    }
+    .fa-play{
+        font-size: 50px;
+        z-index: 25;
+        margin-top: 200px;
+        position: absolute;
+        margin-left: -200px;
+    }
+    .about-img{
+        z-index: -25;
+        position: relative;
+        border: 2px solid #323e40;
+    }
+    .about-3{
+        background-color: #d90504;
+        
+    }
+   /* about end here  */
+        
+        
+     /* contact us css */
+
+.contact-boy{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: boy;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;  
+    /* animation-fill-mode: alternate;
+    animation-timing-function: ease-in-out; 
+    animation-delay: 2s; */
+    
+
+}
+
+@keyframes boy{
+0%{
+    left: 0px;
+   
+}
+25%{
+    left: 400px;
+}
+75%{
+   left: 800px;
+}
+100%{
+    left: 1400px;
+}
+}
+/* @keyframes boy{
+from{
+width: 80px;
+height: 100px;
+}
+to{
+width: 150px;
+height: 150px;
+}
+} */
+.fas{
+    font-size: 15px;
+    color: #d90504;
+    margin-top: 30px;
+}
+.fa-angle-double-down{
+    font-size: 50px;
+    margin: 0px 10px;
+}
+ .contact-3 input{
+      width: 45%;
+     height: 50px;
+     display: inline-block;
+     margin: 20px 0px;
+ }
+ .contact-1 h1{
+     font-size: 50px;
+     
+ }
+ .contact-2 h2{
+     font-size: 30px;
+ }
+ .contact-2 a {
+     text-decoration: none;
+     padding: 0px 30px;
+     margin-top: 30px;
+     color: black;   
+ }
+ .contact-4{
+     border: none;
+     box-shadow: 1px 1px 8px  #323e40;
+ }
+ .contact-3 button{
+     width: 30%;
+     height: 50px;
+     background-color: #486c72;
+     font-size: 15px;
+     border: none;
+     border-radius: 30px;
+     margin-top: 10px;
+     margin-left: 10px;
+  
+ }
+ .contact-3 button:hover{
+     background: white;
+     box-shadow: 1px 1px 8px #323e40;
+    
+ }
+ .fab{
+     font-size: 35px;
+     padding-right: 15px;
+     color: white; 
+ }
+ .map{
+     width: 100%;
+     height: 100%;
+     position: relative;
+         }
+ .fab:hover{
+     font-size: 45px;
+     color: black;  
+ }
+ .contact-5 a{
+     text-decoration: none;
+     display: block;
+     font-size: 30px;
+     color: rgb(46, 42, 42);
+     font-weight: 500;
+     margin-left: 30px;
+ }
+ .contact-6 button{
+     display: block;
+     margin-top: 30px;
+     width: 50%;
+     height: 50px;
+     background-color: #323e40;
+     font-size: 20px;
+     border: none;
+     border-radius: 30px;
+ }
+ .contact-6 button:hover{
+    background: white;
+    box-shadow: 1px 1px 8px  #323e40;
+    color: black; }
+   /* contact end here  */     
+    
+
+   
+  
+  
+  
+  
+  
+  
